@@ -1,0 +1,15 @@
+# 배포에서 빼는 것. 배포에 남는 것: index.html · style.css · app.js · clean.js · lib/ · rules/ · data/
+
+# 저장소에만 올린다
+CLAUDE.md
+README.md
+
+# 어디에도 올리지 않는다 (.gitignore 와 같음 — 저장소를 거치지 않고 바로 배포할 때를 위해 다시 적음)
+tools/
+진단/
+.claude/
+*_정리본.xlsx
+*_바꾼기록.xlsx
+Thumbs.db
+desktop.ini
+.DS_Store
